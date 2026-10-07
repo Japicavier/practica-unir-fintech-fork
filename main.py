@@ -14,8 +14,8 @@ def main():
     sorted_words = sort_list(words)
 
     print("Palabras ordenadas:")
-    for word in sorted_words:
-        print(word)
+    for i in range(len(sorted_words)):
+        print(sorted_words[i])
 
 
 if __name__ == "__main__":
